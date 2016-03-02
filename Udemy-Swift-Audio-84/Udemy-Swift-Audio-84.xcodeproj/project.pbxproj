@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EEF4EF7E1C8179D200E7CE89 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF4EF7D1C8179D200E7CE89 /* AppDelegate.swift */; };
+		EEF4EF801C8179D200E7CE89 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF4EF7F1C8179D200E7CE89 /* ViewController.swift */; };
+		EEF4EF831C8179D200E7CE89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEF4EF811C8179D200E7CE89 /* Main.storyboard */; };
+		EEF4EF851C8179D200E7CE89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEF4EF841C8179D200E7CE89 /* Assets.xcassets */; };
+		EEF4EF881C8179D200E7CE89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEF4EF861C8179D200E7CE89 /* LaunchScreen.storyboard */; };
+		EEF4EF931C8179D200E7CE89 /* Udemy_Swift_Audio_84Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF4EF921C8179D200E7CE89 /* Udemy_Swift_Audio_84Tests.swift */; };
+		EEF4EF9E1C8179D200E7CE89 /* Udemy_Swift_Audio_84UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF4EF9D1C8179D200E7CE89 /* Udemy_Swift_Audio_84UITests.swift */; };
+		EEF4EFAC1C817B7C00E7CE89 /* nguoitanoi.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EEF4EFAB1C817B7C00E7CE89 /* nguoitanoi.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EEF4EF8F1C8179D200E7CE89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEF4EF721C8179D200E7CE89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EEF4EF791C8179D200E7CE89;
+			remoteInfo = "Udemy-Swift-Audio-84";
+		};
+		EEF4EF9A1C8179D200E7CE89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEF4EF721C8179D200E7CE89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EEF4EF791C8179D200E7CE89;
+			remoteInfo = "Udemy-Swift-Audio-84";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EEF4EF7A1C8179D200E7CE89 /* Udemy-Swift-Audio-84.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Udemy-Swift-Audio-84.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEF4EF7D1C8179D200E7CE89 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EEF4EF7F1C8179D200E7CE89 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EEF4EF821C8179D200E7CE89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EEF4EF841C8179D200E7CE89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EEF4EF871C8179D200E7CE89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EEF4EF891C8179D200E7CE89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEF4EF8E1C8179D200E7CE89 /* Udemy-Swift-Audio-84Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Udemy-Swift-Audio-84Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEF4EF921C8179D200E7CE89 /* Udemy_Swift_Audio_84Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Udemy_Swift_Audio_84Tests.swift; sourceTree = "<group>"; };
+		EEF4EF941C8179D200E7CE89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEF4EF991C8179D200E7CE89 /* Udemy-Swift-Audio-84UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Udemy-Swift-Audio-84UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEF4EF9D1C8179D200E7CE89 /* Udemy_Swift_Audio_84UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Udemy_Swift_Audio_84UITests.swift; sourceTree = "<group>"; };
+		EEF4EF9F1C8179D200E7CE89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEF4EFAB1C817B7C00E7CE89 /* nguoitanoi.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = nguoitanoi.mp3; path = ../../Downloads/nguoitanoi.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EEF4EF771C8179D200E7CE89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEF4EF8B1C8179D200E7CE89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEF4EF961C8179D200E7CE89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EEF4EF711C8179D200E7CE89 = {
+			isa = PBXGroup;
+			children = (
+				EEF4EFAB1C817B7C00E7CE89 /* nguoitanoi.mp3 */,
+				EEF4EF7C1C8179D200E7CE89 /* Udemy-Swift-Audio-84 */,
+				EEF4EF911C8179D200E7CE89 /* Udemy-Swift-Audio-84Tests */,
+				EEF4EF9C1C8179D200E7CE89 /* Udemy-Swift-Audio-84UITests */,
+				EEF4EF7B1C8179D200E7CE89 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EEF4EF7B1C8179D200E7CE89 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EEF4EF7A1C8179D200E7CE89 /* Udemy-Swift-Audio-84.app */,
+				EEF4EF8E1C8179D200E7CE89 /* Udemy-Swift-Audio-84Tests.xctest */,
+				EEF4EF991C8179D200E7CE89 /* Udemy-Swift-Audio-84UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EEF4EF7C1C8179D200E7CE89 /* Udemy-Swift-Audio-84 */ = {
+			isa = PBXGroup;
+			children = (
+				EEF4EF7D1C8179D200E7CE89 /* AppDelegate.swift */,
+				EEF4EF7F1C8179D200E7CE89 /* ViewController.swift */,
+				EEF4EF811C8179D200E7CE89 /* Main.storyboard */,
+				EEF4EF841C8179D200E7CE89 /* Assets.xcassets */,
+				EEF4EF861C8179D200E7CE89 /* LaunchScreen.storyboard */,
+				EEF4EF891C8179D200E7CE89 /* Info.plist */,
+			);
+			path = "Udemy-Swift-Audio-84";
+			sourceTree = "<group>";
+		};
+		EEF4EF911C8179D200E7CE89 /* Udemy-Swift-Audio-84Tests */ = {
+			isa = PBXGroup;
+			children = (
+				EEF4EF921C8179D200E7CE89 /* Udemy_Swift_Audio_84Tests.swift */,
+				EEF4EF941C8179D200E7CE89 /* Info.plist */,
+			);
+			path = "Udemy-Swift-Audio-84Tests";
+			sourceTree = "<group>";
+		};
+		EEF4EF9C1C8179D200E7CE89 /* Udemy-Swift-Audio-84UITests */ = {
+			isa = PBXGroup;
+			children = (
+				EEF4EF9D1C8179D200E7CE89 /* Udemy_Swift_Audio_84UITests.swift */,
+				EEF4EF9F1C8179D200E7CE89 /* Info.plist */,
+			);
+			path = "Udemy-Swift-Audio-84UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EEF4EF791C8179D200E7CE89 /* Udemy-Swift-Audio-84 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEF4EFA21C8179D200E7CE89 /* Build configuration list for PBXNativeTarget "Udemy-Swift-Audio-84" */;
+			buildPhases = (
+				EEF4EF761C8179D200E7CE89 /* Sources */,
+				EEF4EF771C8179D200E7CE89 /* Frameworks */,
+				EEF4EF781C8179D200E7CE89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Udemy-Swift-Audio-84";
+			productName = "Udemy-Swift-Audio-84";
+			productReference = EEF4EF7A1C8179D200E7CE89 /* Udemy-Swift-Audio-84.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EEF4EF8D1C8179D200E7CE89 /* Udemy-Swift-Audio-84Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEF4EFA51C8179D200E7CE89 /* Build configuration list for PBXNativeTarget "Udemy-Swift-Audio-84Tests" */;
+			buildPhases = (
+				EEF4EF8A1C8179D200E7CE89 /* Sources */,
+				EEF4EF8B1C8179D200E7CE89 /* Frameworks */,
+				EEF4EF8C1C8179D200E7CE89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EEF4EF901C8179D200E7CE89 /* PBXTargetDependency */,
+			);
+			name = "Udemy-Swift-Audio-84Tests";
+			productName = "Udemy-Swift-Audio-84Tests";
+			productReference = EEF4EF8E1C8179D200E7CE89 /* Udemy-Swift-Audio-84Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EEF4EF981C8179D200E7CE89 /* Udemy-Swift-Audio-84UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEF4EFA81C8179D200E7CE89 /* Build configuration list for PBXNativeTarget "Udemy-Swift-Audio-84UITests" */;
+			buildPhases = (
+				EEF4EF951C8179D200E7CE89 /* Sources */,
+				EEF4EF961C8179D200E7CE89 /* Frameworks */,
+				EEF4EF971C8179D200E7CE89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EEF4EF9B1C8179D200E7CE89 /* PBXTargetDependency */,
+			);
+			name = "Udemy-Swift-Audio-84UITests";
+			productName = "Udemy-Swift-Audio-84UITests";
+			productReference = EEF4EF991C8179D200E7CE89 /* Udemy-Swift-Audio-84UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EEF4EF721C8179D200E7CE89 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Lam Quoc";
+				TargetAttributes = {
+					EEF4EF791C8179D200E7CE89 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					EEF4EF8D1C8179D200E7CE89 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = EEF4EF791C8179D200E7CE89;
+					};
+					EEF4EF981C8179D200E7CE89 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = EEF4EF791C8179D200E7CE89;
+					};
+				};
+			};
+			buildConfigurationList = EEF4EF751C8179D200E7CE89 /* Build configuration list for PBXProject "Udemy-Swift-Audio-84" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EEF4EF711C8179D200E7CE89;
+			productRefGroup = EEF4EF7B1C8179D200E7CE89 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EEF4EF791C8179D200E7CE89 /* Udemy-Swift-Audio-84 */,
+				EEF4EF8D1C8179D200E7CE89 /* Udemy-Swift-Audio-84Tests */,
+				EEF4EF981C8179D200E7CE89 /* Udemy-Swift-Audio-84UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EEF4EF781C8179D200E7CE89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEF4EF881C8179D200E7CE89 /* LaunchScreen.storyboard in Resources */,
+				EEF4EFAC1C817B7C00E7CE89 /* nguoitanoi.mp3 in Resources */,
+				EEF4EF851C8179D200E7CE89 /* Assets.xcassets in Resources */,
+				EEF4EF831C8179D200E7CE89 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEF4EF8C1C8179D200E7CE89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEF4EF971C8179D200E7CE89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EEF4EF761C8179D200E7CE89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEF4EF801C8179D200E7CE89 /* ViewController.swift in Sources */,
+				EEF4EF7E1C8179D200E7CE89 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEF4EF8A1C8179D200E7CE89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEF4EF931C8179D200E7CE89 /* Udemy_Swift_Audio_84Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEF4EF951C8179D200E7CE89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEF4EF9E1C8179D200E7CE89 /* Udemy_Swift_Audio_84UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EEF4EF901C8179D200E7CE89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EEF4EF791C8179D200E7CE89 /* Udemy-Swift-Audio-84 */;
+			targetProxy = EEF4EF8F1C8179D200E7CE89 /* PBXContainerItemProxy */;
+		};
+		EEF4EF9B1C8179D200E7CE89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EEF4EF791C8179D200E7CE89 /* Udemy-Swift-Audio-84 */;
+			targetProxy = EEF4EF9A1C8179D200E7CE89 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EEF4EF811C8179D200E7CE89 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEF4EF821C8179D200E7CE89 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EEF4EF861C8179D200E7CE89 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEF4EF871C8179D200E7CE89 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EEF4EFA01C8179D200E7CE89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EEF4EFA11C8179D200E7CE89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EEF4EFA31C8179D200E7CE89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Udemy-Swift-Audio-84/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Home.Udemy-Swift-Audio-84";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EEF4EFA41C8179D200E7CE89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Udemy-Swift-Audio-84/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Home.Udemy-Swift-Audio-84";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EEF4EFA61C8179D200E7CE89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Udemy-Swift-Audio-84Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Home.Udemy-Swift-Audio-84Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Udemy-Swift-Audio-84.app/Udemy-Swift-Audio-84";
+			};
+			name = Debug;
+		};
+		EEF4EFA71C8179D200E7CE89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Udemy-Swift-Audio-84Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Home.Udemy-Swift-Audio-84Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Udemy-Swift-Audio-84.app/Udemy-Swift-Audio-84";
+			};
+			name = Release;
+		};
+		EEF4EFA91C8179D200E7CE89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Udemy-Swift-Audio-84UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Home.Udemy-Swift-Audio-84UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Udemy-Swift-Audio-84";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		EEF4EFAA1C8179D200E7CE89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Udemy-Swift-Audio-84UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Home.Udemy-Swift-Audio-84UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Udemy-Swift-Audio-84";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EEF4EF751C8179D200E7CE89 /* Build configuration list for PBXProject "Udemy-Swift-Audio-84" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEF4EFA01C8179D200E7CE89 /* Debug */,
+				EEF4EFA11C8179D200E7CE89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEF4EFA21C8179D200E7CE89 /* Build configuration list for PBXNativeTarget "Udemy-Swift-Audio-84" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEF4EFA31C8179D200E7CE89 /* Debug */,
+				EEF4EFA41C8179D200E7CE89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EEF4EFA51C8179D200E7CE89 /* Build configuration list for PBXNativeTarget "Udemy-Swift-Audio-84Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEF4EFA61C8179D200E7CE89 /* Debug */,
+				EEF4EFA71C8179D200E7CE89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EEF4EFA81C8179D200E7CE89 /* Build configuration list for PBXNativeTarget "Udemy-Swift-Audio-84UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEF4EFA91C8179D200E7CE89 /* Debug */,
+				EEF4EFAA1C8179D200E7CE89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EEF4EF721C8179D200E7CE89 /* Project object */;
+}

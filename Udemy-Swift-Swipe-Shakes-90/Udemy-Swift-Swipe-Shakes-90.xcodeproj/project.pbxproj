@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EEF4F0321C81967800E7CE89 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF4F0311C81967800E7CE89 /* AppDelegate.swift */; };
+		EEF4F0341C81967800E7CE89 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF4F0331C81967800E7CE89 /* ViewController.swift */; };
+		EEF4F0371C81967800E7CE89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEF4F0351C81967800E7CE89 /* Main.storyboard */; };
+		EEF4F0391C81967800E7CE89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEF4F0381C81967800E7CE89 /* Assets.xcassets */; };
+		EEF4F03C1C81967800E7CE89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEF4F03A1C81967800E7CE89 /* LaunchScreen.storyboard */; };
+		EEF4F0471C81967800E7CE89 /* Udemy_Swift_Swipe_Shakes_90Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF4F0461C81967800E7CE89 /* Udemy_Swift_Swipe_Shakes_90Tests.swift */; };
+		EEF4F0521C81967800E7CE89 /* Udemy_Swift_Swipe_Shakes_90UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF4F0511C81967800E7CE89 /* Udemy_Swift_Swipe_Shakes_90UITests.swift */; };
+		EEF4F0671C819A6400E7CE89 /* bean.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EEF4F05F1C819A6400E7CE89 /* bean.mp3 */; };
+		EEF4F0681C819A6400E7CE89 /* belch.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EEF4F0601C819A6400E7CE89 /* belch.mp3 */; };
+		EEF4F0691C819A6400E7CE89 /* giggle.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EEF4F0611C819A6400E7CE89 /* giggle.mp3 */; };
+		EEF4F06A1C819A6400E7CE89 /* pew.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EEF4F0621C819A6400E7CE89 /* pew.mp3 */; };
+		EEF4F06B1C819A6400E7CE89 /* pig.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EEF4F0631C819A6400E7CE89 /* pig.mp3 */; };
+		EEF4F06C1C819A6400E7CE89 /* snore.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EEF4F0641C819A6400E7CE89 /* snore.mp3 */; };
+		EEF4F06D1C819A6400E7CE89 /* static.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EEF4F0651C819A6400E7CE89 /* static.mp3 */; };
+		EEF4F06E1C819A6400E7CE89 /* uuu.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EEF4F0661C819A6400E7CE89 /* uuu.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EEF4F0431C81967800E7CE89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEF4F0261C81967800E7CE89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EEF4F02D1C81967800E7CE89;
+			remoteInfo = "Udemy-Swift-Swipe-Shakes-90";
+		};
+		EEF4F04E1C81967800E7CE89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEF4F0261C81967800E7CE89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EEF4F02D1C81967800E7CE89;
+			remoteInfo = "Udemy-Swift-Swipe-Shakes-90";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EEF4F02E1C81967800E7CE89 /* Udemy-Swift-Swipe-Shakes-90.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Udemy-Swift-Swipe-Shakes-90.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEF4F0311C81967800E7CE89 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EEF4F0331C81967800E7CE89 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EEF4F0361C81967800E7CE89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EEF4F0381C81967800E7CE89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EEF4F03B1C81967800E7CE89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EEF4F03D1C81967800E7CE89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEF4F0421C81967800E7CE89 /* Udemy-Swift-Swipe-Shakes-90Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Udemy-Swift-Swipe-Shakes-90Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEF4F0461C81967800E7CE89 /* Udemy_Swift_Swipe_Shakes_90Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Udemy_Swift_Swipe_Shakes_90Tests.swift; sourceTree = "<group>"; };
+		EEF4F0481C81967800E7CE89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEF4F04D1C81967800E7CE89 /* Udemy-Swift-Swipe-Shakes-90UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Udemy-Swift-Swipe-Shakes-90UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEF4F0511C81967800E7CE89 /* Udemy_Swift_Swipe_Shakes_90UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Udemy_Swift_Swipe_Shakes_90UITests.swift; sourceTree = "<group>"; };
+		EEF4F0531C81967800E7CE89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEF4F05F1C819A6400E7CE89 /* bean.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bean.mp3; sourceTree = "<group>"; };
+		EEF4F0601C819A6400E7CE89 /* belch.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = belch.mp3; sourceTree = "<group>"; };
+		EEF4F0611C819A6400E7CE89 /* giggle.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = giggle.mp3; sourceTree = "<group>"; };
+		EEF4F0621C819A6400E7CE89 /* pew.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pew.mp3; sourceTree = "<group>"; };
+		EEF4F0631C819A6400E7CE89 /* pig.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pig.mp3; sourceTree = "<group>"; };
+		EEF4F0641C819A6400E7CE89 /* snore.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = snore.mp3; sourceTree = "<group>"; };
+		EEF4F0651C819A6400E7CE89 /* static.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = static.mp3; sourceTree = "<group>"; };
+		EEF4F0661C819A6400E7CE89 /* uuu.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = uuu.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EEF4F02B1C81967800E7CE89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEF4F03F1C81967800E7CE89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEF4F04A1C81967800E7CE89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EEF4F0251C81967800E7CE89 = {
+			isa = PBXGroup;
+			children = (
+				EEF4F05F1C819A6400E7CE89 /* bean.mp3 */,
+				EEF4F0601C819A6400E7CE89 /* belch.mp3 */,
+				EEF4F0611C819A6400E7CE89 /* giggle.mp3 */,
+				EEF4F0621C819A6400E7CE89 /* pew.mp3 */,
+				EEF4F0631C819A6400E7CE89 /* pig.mp3 */,
+				EEF4F0641C819A6400E7CE89 /* snore.mp3 */,
+				EEF4F0651C819A6400E7CE89 /* static.mp3 */,
+				EEF4F0661C819A6400E7CE89 /* uuu.mp3 */,
+				EEF4F0301C81967800E7CE89 /* Udemy-Swift-Swipe-Shakes-90 */,
+				EEF4F0451C81967800E7CE89 /* Udemy-Swift-Swipe-Shakes-90Tests */,
+				EEF4F0501C81967800E7CE89 /* Udemy-Swift-Swipe-Shakes-90UITests */,
+				EEF4F02F1C81967800E7CE89 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EEF4F02F1C81967800E7CE89 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EEF4F02E1C81967800E7CE89 /* Udemy-Swift-Swipe-Shakes-90.app */,
+				EEF4F0421C81967800E7CE89 /* Udemy-Swift-Swipe-Shakes-90Tests.xctest */,
+				EEF4F04D1C81967800E7CE89 /* Udemy-Swift-Swipe-Shakes-90UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EEF4F0301C81967800E7CE89 /* Udemy-Swift-Swipe-Shakes-90 */ = {
+			isa = PBXGroup;
+			children = (
+				EEF4F0311C81967800E7CE89 /* AppDelegate.swift */,
+				EEF4F0331C81967800E7CE89 /* ViewController.swift */,
+				EEF4F0351C81967800E7CE89 /* Main.storyboard */,
+				EEF4F0381C81967800E7CE89 /* Assets.xcassets */,
+				EEF4F03A1C81967800E7CE89 /* LaunchScreen.storyboard */,
+				EEF4F03D1C81967800E7CE89 /* Info.plist */,
+			);
+			path = "Udemy-Swift-Swipe-Shakes-90";
+			sourceTree = "<group>";
+		};
+		EEF4F0451C81967800E7CE89 /* Udemy-Swift-Swipe-Shakes-90Tests */ = {
+			isa = PBXGroup;
+			children = (
+				EEF4F0461C81967800E7CE89 /* Udemy_Swift_Swipe_Shakes_90Tests.swift */,
+				EEF4F0481C81967800E7CE89 /* Info.plist */,
+			);
+			path = "Udemy-Swift-Swipe-Shakes-90Tests";
+			sourceTree = "<group>";
+		};
+		EEF4F0501C81967800E7CE89 /* Udemy-Swift-Swipe-Shakes-90UITests */ = {
+			isa = PBXGroup;
+			children = (
+				EEF4F0511C81967800E7CE89 /* Udemy_Swift_Swipe_Shakes_90UITests.swift */,
+				EEF4F0531C81967800E7CE89 /* Info.plist */,
+			);
+			path = "Udemy-Swift-Swipe-Shakes-90UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EEF4F02D1C81967800E7CE89 /* Udemy-Swift-Swipe-Shakes-90 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEF4F0561C81967800E7CE89 /* Build configuration list for PBXNativeTarget "Udemy-Swift-Swipe-Shakes-90" */;
+			buildPhases = (
+				EEF4F02A1C81967800E7CE89 /* Sources */,
+				EEF4F02B1C81967800E7CE89 /* Frameworks */,
+				EEF4F02C1C81967800E7CE89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Udemy-Swift-Swipe-Shakes-90";
+			productName = "Udemy-Swift-Swipe-Shakes-90";
+			productReference = EEF4F02E1C81967800E7CE89 /* Udemy-Swift-Swipe-Shakes-90.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EEF4F0411C81967800E7CE89 /* Udemy-Swift-Swipe-Shakes-90Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEF4F0591C81967800E7CE89 /* Build configuration list for PBXNativeTarget "Udemy-Swift-Swipe-Shakes-90Tests" */;
+			buildPhases = (
+				EEF4F03E1C81967800E7CE89 /* Sources */,
+				EEF4F03F1C81967800E7CE89 /* Frameworks */,
+				EEF4F0401C81967800E7CE89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EEF4F0441C81967800E7CE89 /* PBXTargetDependency */,
+			);
+			name = "Udemy-Swift-Swipe-Shakes-90Tests";
+			productName = "Udemy-Swift-Swipe-Shakes-90Tests";
+			productReference = EEF4F0421C81967800E7CE89 /* Udemy-Swift-Swipe-Shakes-90Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EEF4F04C1C81967800E7CE89 /* Udemy-Swift-Swipe-Shakes-90UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEF4F05C1C81967800E7CE89 /* Build configuration list for PBXNativeTarget "Udemy-Swift-Swipe-Shakes-90UITests" */;
+			buildPhases = (
+				EEF4F0491C81967800E7CE89 /* Sources */,
+				EEF4F04A1C81967800E7CE89 /* Frameworks */,
+				EEF4F04B1C81967800E7CE89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EEF4F04F1C81967800E7CE89 /* PBXTargetDependency */,
+			);
+			name = "Udemy-Swift-Swipe-Shakes-90UITests";
+			productName = "Udemy-Swift-Swipe-Shakes-90UITests";
+			productReference = EEF4F04D1C81967800E7CE89 /* Udemy-Swift-Swipe-Shakes-90UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EEF4F0261C81967800E7CE89 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Lam Quoc";
+				TargetAttributes = {
+					EEF4F02D1C81967800E7CE89 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					EEF4F0411C81967800E7CE89 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = EEF4F02D1C81967800E7CE89;
+					};
+					EEF4F04C1C81967800E7CE89 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = EEF4F02D1C81967800E7CE89;
+					};
+				};
+			};
+			buildConfigurationList = EEF4F0291C81967800E7CE89 /* Build configuration list for PBXProject "Udemy-Swift-Swipe-Shakes-90" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EEF4F0251C81967800E7CE89;
+			productRefGroup = EEF4F02F1C81967800E7CE89 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EEF4F02D1C81967800E7CE89 /* Udemy-Swift-Swipe-Shakes-90 */,
+				EEF4F0411C81967800E7CE89 /* Udemy-Swift-Swipe-Shakes-90Tests */,
+				EEF4F04C1C81967800E7CE89 /* Udemy-Swift-Swipe-Shakes-90UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EEF4F02C1C81967800E7CE89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEF4F0671C819A6400E7CE89 /* bean.mp3 in Resources */,
+				EEF4F06C1C819A6400E7CE89 /* snore.mp3 in Resources */,
+				EEF4F0691C819A6400E7CE89 /* giggle.mp3 in Resources */,
+				EEF4F06E1C819A6400E7CE89 /* uuu.mp3 in Resources */,
+				EEF4F0681C819A6400E7CE89 /* belch.mp3 in Resources */,
+				EEF4F06D1C819A6400E7CE89 /* static.mp3 in Resources */,
+				EEF4F03C1C81967800E7CE89 /* LaunchScreen.storyboard in Resources */,
+				EEF4F0391C81967800E7CE89 /* Assets.xcassets in Resources */,
+				EEF4F06B1C819A6400E7CE89 /* pig.mp3 in Resources */,
+				EEF4F0371C81967800E7CE89 /* Main.storyboard in Resources */,
+				EEF4F06A1C819A6400E7CE89 /* pew.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEF4F0401C81967800E7CE89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEF4F04B1C81967800E7CE89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EEF4F02A1C81967800E7CE89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEF4F0341C81967800E7CE89 /* ViewController.swift in Sources */,
+				EEF4F0321C81967800E7CE89 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEF4F03E1C81967800E7CE89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEF4F0471C81967800E7CE89 /* Udemy_Swift_Swipe_Shakes_90Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEF4F0491C81967800E7CE89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEF4F0521C81967800E7CE89 /* Udemy_Swift_Swipe_Shakes_90UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EEF4F0441C81967800E7CE89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EEF4F02D1C81967800E7CE89 /* Udemy-Swift-Swipe-Shakes-90 */;
+			targetProxy = EEF4F0431C81967800E7CE89 /* PBXContainerItemProxy */;
+		};
+		EEF4F04F1C81967800E7CE89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EEF4F02D1C81967800E7CE89 /* Udemy-Swift-Swipe-Shakes-90 */;
+			targetProxy = EEF4F04E1C81967800E7CE89 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EEF4F0351C81967800E7CE89 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEF4F0361C81967800E7CE89 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EEF4F03A1C81967800E7CE89 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEF4F03B1C81967800E7CE89 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EEF4F0541C81967800E7CE89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EEF4F0551C81967800E7CE89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EEF4F0571C81967800E7CE89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Udemy-Swift-Swipe-Shakes-90/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Home.Udemy-Swift-Swipe-Shakes-90";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EEF4F0581C81967800E7CE89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Udemy-Swift-Swipe-Shakes-90/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Home.Udemy-Swift-Swipe-Shakes-90";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EEF4F05A1C81967800E7CE89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Udemy-Swift-Swipe-Shakes-90Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Home.Udemy-Swift-Swipe-Shakes-90Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Udemy-Swift-Swipe-Shakes-90.app/Udemy-Swift-Swipe-Shakes-90";
+			};
+			name = Debug;
+		};
+		EEF4F05B1C81967800E7CE89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Udemy-Swift-Swipe-Shakes-90Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Home.Udemy-Swift-Swipe-Shakes-90Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Udemy-Swift-Swipe-Shakes-90.app/Udemy-Swift-Swipe-Shakes-90";
+			};
+			name = Release;
+		};
+		EEF4F05D1C81967800E7CE89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Udemy-Swift-Swipe-Shakes-90UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Home.Udemy-Swift-Swipe-Shakes-90UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Udemy-Swift-Swipe-Shakes-90";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		EEF4F05E1C81967800E7CE89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Udemy-Swift-Swipe-Shakes-90UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Home.Udemy-Swift-Swipe-Shakes-90UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Udemy-Swift-Swipe-Shakes-90";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EEF4F0291C81967800E7CE89 /* Build configuration list for PBXProject "Udemy-Swift-Swipe-Shakes-90" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEF4F0541C81967800E7CE89 /* Debug */,
+				EEF4F0551C81967800E7CE89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEF4F0561C81967800E7CE89 /* Build configuration list for PBXNativeTarget "Udemy-Swift-Swipe-Shakes-90" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEF4F0571C81967800E7CE89 /* Debug */,
+				EEF4F0581C81967800E7CE89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EEF4F0591C81967800E7CE89 /* Build configuration list for PBXNativeTarget "Udemy-Swift-Swipe-Shakes-90Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEF4F05A1C81967800E7CE89 /* Debug */,
+				EEF4F05B1C81967800E7CE89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EEF4F05C1C81967800E7CE89 /* Build configuration list for PBXNativeTarget "Udemy-Swift-Swipe-Shakes-90UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEF4F05D1C81967800E7CE89 /* Debug */,
+				EEF4F05E1C81967800E7CE89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EEF4F0261C81967800E7CE89 /* Project object */;
+}

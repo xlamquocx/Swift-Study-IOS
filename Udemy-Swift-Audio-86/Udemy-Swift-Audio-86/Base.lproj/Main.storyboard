@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Udemy_Swift_Audio_86" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zD2-y6-qWR">
+                                <rect key="frame" x="0.0" y="20" width="600" height="44"/>
+                                <items>
+                                    <navigationItem title="Music Luong Bich Huu - Hinh Huong Tram" id="3Mu-Yl-sr1">
+                                        <barButtonItem key="rightBarButtonItem" systemItem="play" id="Gc4-Ki-nmf">
+                                            <connections>
+                                                <action selector="playButton:" destination="BYZ-38-t0r" id="0Eo-ja-eIN"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tfa-hd-Mvq">
+                                <rect key="frame" x="0.0" y="556" width="600" height="44"/>
+                                <items>
+                                    <barButtonItem systemItem="pause" id="bOw-KD-cs3">
+                                        <connections>
+                                            <action selector="pause:" destination="BYZ-38-t0r" id="ljv-Lo-Vph"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="QZa-9g-YhS"/>
+                                    <barButtonItem title="Stop" id="ZMq-rq-oEC">
+                                        <connections>
+                                            <action selector="stop:" destination="BYZ-38-t0r" id="mqa-pY-04k"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="huongTram.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="d1p-h3-qap">
+                                <rect key="frame" x="170" y="64" width="261" height="213"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="213" id="517-sq-7ru"/>
+                                    <constraint firstAttribute="width" constant="261" id="Jpt-BH-Pdf"/>
+                                    <constraint firstAttribute="width" constant="261" id="Np7-2D-BdM"/>
+                                    <constraint firstAttribute="height" constant="213" id="f7n-Dp-smY"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="517-sq-7ru"/>
+                                        <exclude reference="Jpt-BH-Pdf"/>
+                                    </mask>
+                                </variation>
+                            </imageView>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="50" minValue="0.0" maxValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="jA8-zb-R0P">
+                                <rect key="frame" x="172" y="328" width="257" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="253" id="9v2-cY-meg"/>
+                                </constraints>
+                                <connections>
+                                    <action selector="changeVolume:" destination="BYZ-38-t0r" eventType="valueChanged" id="UG4-oe-KQr"/>
+                                </connections>
+                            </slider>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="ViP-AV-dzE">
+                                <rect key="frame" x="172" y="380" width="257" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="253" id="XnZ-zn-p6c"/>
+                                    <constraint firstAttribute="height" constant="30" id="Xy5-4c-WpW"/>
+                                </constraints>
+                                <connections>
+                                    <action selector="scrubAction:" destination="BYZ-38-t0r" eventType="valueChanged" id="deX-oE-9G0"/>
+                                </connections>
+                            </slider>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="d1p-h3-qap" secondAttribute="trailing" constant="169" id="1hc-hJ-zR4"/>
+                            <constraint firstItem="ViP-AV-dzE" firstAttribute="top" secondItem="jA8-zb-R0P" secondAttribute="bottom" constant="22" id="DwU-ve-bXR"/>
+                            <constraint firstItem="d1p-h3-qap" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="PiP-hB-gQY"/>
+                            <constraint firstItem="zD2-y6-qWR" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="QM1-nw-maS"/>
+                            <constraint firstAttribute="trailing" secondItem="zD2-y6-qWR" secondAttribute="trailing" id="Tao-A2-5zm"/>
+                            <constraint firstItem="tfa-hd-Mvq" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Xs6-82-tbj"/>
+                            <constraint firstItem="jA8-zb-R0P" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="XyM-rY-xII"/>
+                            <constraint firstItem="ViP-AV-dzE" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="aaa-zN-IID"/>
+                            <constraint firstItem="jA8-zb-R0P" firstAttribute="top" secondItem="d1p-h3-qap" secondAttribute="bottom" constant="51" id="bsc-EJ-A8k"/>
+                            <constraint firstAttribute="trailing" secondItem="tfa-hd-Mvq" secondAttribute="trailing" id="eNo-dr-eoX"/>
+                            <constraint firstItem="d1p-h3-qap" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" priority="261" id="idY-6g-tx5"/>
+                            <constraint firstItem="d1p-h3-qap" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="170" id="jMN-QV-Bcp"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="tfa-hd-Mvq" secondAttribute="bottom" id="rvN-76-F8W"/>
+                            <constraint firstItem="zD2-y6-qWR" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="y9W-LA-s1E"/>
+                            <constraint firstItem="d1p-h3-qap" firstAttribute="top" secondItem="zD2-y6-qWR" secondAttribute="bottom" id="yN9-tg-iZC"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="1hc-hJ-zR4"/>
+                                <exclude reference="idY-6g-tx5"/>
+                                <exclude reference="jMN-QV-Bcp"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="scrubSlide" destination="ViP-AV-dzE" id="u7r-Ly-ekc"/>
+                        <outlet property="slideVolume" destination="jA8-zb-R0P" id="J8U-VN-3BZ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="305" y="387"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="huongTram.jpg" width="600" height="829"/>
+    </resources>
+</document>
