@@ -1,0 +1,6 @@
+framework module Pods_AlamofireDemoQuoc {
+  umbrella header "Pods-AlamofireDemoQuoc-umbrella.h"
+
+  export *
+  module * { export * }
+}

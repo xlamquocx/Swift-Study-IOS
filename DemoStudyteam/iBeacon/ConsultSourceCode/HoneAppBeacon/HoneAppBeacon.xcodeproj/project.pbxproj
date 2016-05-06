@@ -1,0 +1,495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		39AE82581B0ED7DE00FE176E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 39AE82571B0ED7DE00FE176E /* main.m */; };
+		39AE825B1B0ED7DE00FE176E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 39AE825A1B0ED7DE00FE176E /* AppDelegate.m */; };
+		39AE82611B0ED7DE00FE176E /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39AE825F1B0ED7DE00FE176E /* Main_iPad.storyboard */; };
+		39AE82631B0ED7DE00FE176E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39AE82621B0ED7DE00FE176E /* Images.xcassets */; };
+		39AE82661B0ED7DE00FE176E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39AE82641B0ED7DE00FE176E /* LaunchScreen.xib */; };
+		39AE82721B0ED7DE00FE176E /* HoneAppBeaconTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 39AE82711B0ED7DE00FE176E /* HoneAppBeaconTests.m */; };
+		39AE827C1B0ED82600FE176E /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39AE827B1B0ED82600FE176E /* AVFoundation.framework */; };
+		39AE827E1B0ED82E00FE176E /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39AE827D1B0ED82E00FE176E /* CoreBluetooth.framework */; };
+		39AE82801B0ED83700FE176E /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39AE827F1B0ED83700FE176E /* CoreLocation.framework */; };
+		39AE82821B0ED83E00FE176E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39AE82811B0ED83E00FE176E /* CoreGraphics.framework */; };
+		39AE82841B0ED84700FE176E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39AE82831B0ED84700FE176E /* UIKit.framework */; };
+		39AE82861B0ED85000FE176E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39AE82851B0ED85000FE176E /* Foundation.framework */; };
+		39AE82891B0EDA7000FE176E /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39AE82881B0EDA7000FE176E /* Main_iPhone.storyboard */; };
+		39AE828C1B0EDD6100FE176E /* HomeVC_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 39AE828B1B0EDD6100FE176E /* HomeVC_iPhone.m */; };
+		39AE828F1B0EDD8200FE176E /* HomeVC_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 39AE828E1B0EDD8200FE176E /* HomeVC_iPad.m */; };
+		39B060911B12C02D00854C5D /* ibeacon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 39B060901B12C02D00854C5D /* ibeacon.jpg */; };
+		39B060941B12C1BE00854C5D /* beacon_teal.png in Resources */ = {isa = PBXBuildFile; fileRef = 39B060921B12C1BE00854C5D /* beacon_teal.png */; };
+		39B060951B12C1BE00854C5D /* beacon_blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 39B060931B12C1BE00854C5D /* beacon_blue.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		39AE826C1B0ED7DE00FE176E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39AE824A1B0ED7DE00FE176E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39AE82511B0ED7DE00FE176E;
+			remoteInfo = HoneAppBeacon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		39AE82521B0ED7DE00FE176E /* HoneAppBeacon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HoneAppBeacon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		39AE82561B0ED7DE00FE176E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39AE82571B0ED7DE00FE176E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		39AE82591B0ED7DE00FE176E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		39AE825A1B0ED7DE00FE176E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		39AE82601B0ED7DE00FE176E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		39AE82621B0ED7DE00FE176E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		39AE82651B0ED7DE00FE176E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		39AE826B1B0ED7DE00FE176E /* HoneAppBeaconTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HoneAppBeaconTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		39AE82701B0ED7DE00FE176E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39AE82711B0ED7DE00FE176E /* HoneAppBeaconTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HoneAppBeaconTests.m; sourceTree = "<group>"; };
+		39AE827B1B0ED82600FE176E /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		39AE827D1B0ED82E00FE176E /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		39AE827F1B0ED83700FE176E /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		39AE82811B0ED83E00FE176E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		39AE82831B0ED84700FE176E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		39AE82851B0ED85000FE176E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		39AE82881B0EDA7000FE176E /* Main_iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main_iPhone.storyboard; sourceTree = "<group>"; };
+		39AE828A1B0EDD6100FE176E /* HomeVC_iPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeVC_iPhone.h; sourceTree = "<group>"; };
+		39AE828B1B0EDD6100FE176E /* HomeVC_iPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeVC_iPhone.m; sourceTree = "<group>"; };
+		39AE828D1B0EDD8200FE176E /* HomeVC_iPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeVC_iPad.h; sourceTree = "<group>"; };
+		39AE828E1B0EDD8200FE176E /* HomeVC_iPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeVC_iPad.m; sourceTree = "<group>"; };
+		39AE82901B0F179E00FE176E /* HoneAppBeacon-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HoneAppBeacon-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		39B060901B12C02D00854C5D /* ibeacon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = ibeacon.jpg; path = HoneAppBeacon/ibeacon.jpg; sourceTree = "<group>"; };
+		39B060921B12C1BE00854C5D /* beacon_teal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = beacon_teal.png; sourceTree = "<group>"; };
+		39B060931B12C1BE00854C5D /* beacon_blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = beacon_blue.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		39AE824F1B0ED7DE00FE176E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39AE82861B0ED85000FE176E /* Foundation.framework in Frameworks */,
+				39AE82841B0ED84700FE176E /* UIKit.framework in Frameworks */,
+				39AE82821B0ED83E00FE176E /* CoreGraphics.framework in Frameworks */,
+				39AE82801B0ED83700FE176E /* CoreLocation.framework in Frameworks */,
+				39AE827E1B0ED82E00FE176E /* CoreBluetooth.framework in Frameworks */,
+				39AE827C1B0ED82600FE176E /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39AE82681B0ED7DE00FE176E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		39AE82491B0ED7DE00FE176E = {
+			isa = PBXGroup;
+			children = (
+				39B060901B12C02D00854C5D /* ibeacon.jpg */,
+				39B060931B12C1BE00854C5D /* beacon_blue.png */,
+				39B060921B12C1BE00854C5D /* beacon_teal.png */,
+				39AE82871B0ED85700FE176E /* Framework */,
+				39AE82541B0ED7DE00FE176E /* HoneAppBeacon */,
+				39AE826E1B0ED7DE00FE176E /* HoneAppBeaconTests */,
+				39AE82531B0ED7DE00FE176E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		39AE82531B0ED7DE00FE176E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				39AE82521B0ED7DE00FE176E /* HoneAppBeacon.app */,
+				39AE826B1B0ED7DE00FE176E /* HoneAppBeaconTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		39AE82541B0ED7DE00FE176E /* HoneAppBeacon */ = {
+			isa = PBXGroup;
+			children = (
+				39AE82591B0ED7DE00FE176E /* AppDelegate.h */,
+				39AE825A1B0ED7DE00FE176E /* AppDelegate.m */,
+				39AE828A1B0EDD6100FE176E /* HomeVC_iPhone.h */,
+				39AE828B1B0EDD6100FE176E /* HomeVC_iPhone.m */,
+				39AE828D1B0EDD8200FE176E /* HomeVC_iPad.h */,
+				39AE828E1B0EDD8200FE176E /* HomeVC_iPad.m */,
+				39AE825F1B0ED7DE00FE176E /* Main_iPad.storyboard */,
+				39AE82881B0EDA7000FE176E /* Main_iPhone.storyboard */,
+				39AE82901B0F179E00FE176E /* HoneAppBeacon-Prefix.pch */,
+				39AE82621B0ED7DE00FE176E /* Images.xcassets */,
+				39AE82641B0ED7DE00FE176E /* LaunchScreen.xib */,
+				39AE82551B0ED7DE00FE176E /* Supporting Files */,
+			);
+			path = HoneAppBeacon;
+			sourceTree = "<group>";
+		};
+		39AE82551B0ED7DE00FE176E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				39AE82561B0ED7DE00FE176E /* Info.plist */,
+				39AE82571B0ED7DE00FE176E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		39AE826E1B0ED7DE00FE176E /* HoneAppBeaconTests */ = {
+			isa = PBXGroup;
+			children = (
+				39AE82711B0ED7DE00FE176E /* HoneAppBeaconTests.m */,
+				39AE826F1B0ED7DE00FE176E /* Supporting Files */,
+			);
+			path = HoneAppBeaconTests;
+			sourceTree = "<group>";
+		};
+		39AE826F1B0ED7DE00FE176E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				39AE82701B0ED7DE00FE176E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		39AE82871B0ED85700FE176E /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				39AE82851B0ED85000FE176E /* Foundation.framework */,
+				39AE82831B0ED84700FE176E /* UIKit.framework */,
+				39AE82811B0ED83E00FE176E /* CoreGraphics.framework */,
+				39AE827F1B0ED83700FE176E /* CoreLocation.framework */,
+				39AE827D1B0ED82E00FE176E /* CoreBluetooth.framework */,
+				39AE827B1B0ED82600FE176E /* AVFoundation.framework */,
+			);
+			name = Framework;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		39AE82511B0ED7DE00FE176E /* HoneAppBeacon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39AE82751B0ED7DE00FE176E /* Build configuration list for PBXNativeTarget "HoneAppBeacon" */;
+			buildPhases = (
+				39AE824E1B0ED7DE00FE176E /* Sources */,
+				39AE824F1B0ED7DE00FE176E /* Frameworks */,
+				39AE82501B0ED7DE00FE176E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HoneAppBeacon;
+			productName = HoneAppBeacon;
+			productReference = 39AE82521B0ED7DE00FE176E /* HoneAppBeacon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		39AE826A1B0ED7DE00FE176E /* HoneAppBeaconTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39AE82781B0ED7DE00FE176E /* Build configuration list for PBXNativeTarget "HoneAppBeaconTests" */;
+			buildPhases = (
+				39AE82671B0ED7DE00FE176E /* Sources */,
+				39AE82681B0ED7DE00FE176E /* Frameworks */,
+				39AE82691B0ED7DE00FE176E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				39AE826D1B0ED7DE00FE176E /* PBXTargetDependency */,
+			);
+			name = HoneAppBeaconTests;
+			productName = HoneAppBeaconTests;
+			productReference = 39AE826B1B0ED7DE00FE176E /* HoneAppBeaconTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		39AE824A1B0ED7DE00FE176E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Tiep Nguyen";
+				TargetAttributes = {
+					39AE82511B0ED7DE00FE176E = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					39AE826A1B0ED7DE00FE176E = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 39AE82511B0ED7DE00FE176E;
+					};
+				};
+			};
+			buildConfigurationList = 39AE824D1B0ED7DE00FE176E /* Build configuration list for PBXProject "HoneAppBeacon" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 39AE82491B0ED7DE00FE176E;
+			productRefGroup = 39AE82531B0ED7DE00FE176E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				39AE82511B0ED7DE00FE176E /* HoneAppBeacon */,
+				39AE826A1B0ED7DE00FE176E /* HoneAppBeaconTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		39AE82501B0ED7DE00FE176E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39AE82891B0EDA7000FE176E /* Main_iPhone.storyboard in Resources */,
+				39B060911B12C02D00854C5D /* ibeacon.jpg in Resources */,
+				39B060951B12C1BE00854C5D /* beacon_blue.png in Resources */,
+				39AE82611B0ED7DE00FE176E /* Main_iPad.storyboard in Resources */,
+				39B060941B12C1BE00854C5D /* beacon_teal.png in Resources */,
+				39AE82661B0ED7DE00FE176E /* LaunchScreen.xib in Resources */,
+				39AE82631B0ED7DE00FE176E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39AE82691B0ED7DE00FE176E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		39AE824E1B0ED7DE00FE176E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39AE825B1B0ED7DE00FE176E /* AppDelegate.m in Sources */,
+				39AE828F1B0EDD8200FE176E /* HomeVC_iPad.m in Sources */,
+				39AE828C1B0EDD6100FE176E /* HomeVC_iPhone.m in Sources */,
+				39AE82581B0ED7DE00FE176E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39AE82671B0ED7DE00FE176E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39AE82721B0ED7DE00FE176E /* HoneAppBeaconTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		39AE826D1B0ED7DE00FE176E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 39AE82511B0ED7DE00FE176E /* HoneAppBeacon */;
+			targetProxy = 39AE826C1B0ED7DE00FE176E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		39AE825F1B0ED7DE00FE176E /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39AE82601B0ED7DE00FE176E /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		39AE82641B0ED7DE00FE176E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39AE82651B0ED7DE00FE176E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		39AE82731B0ED7DE00FE176E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		39AE82741B0ED7DE00FE176E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		39AE82761B0ED7DE00FE176E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/HoneAppBeacon-Prefix.pch";
+				INFOPLIST_FILE = HoneAppBeacon/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		39AE82771B0ED7DE00FE176E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/HoneAppBeacon-Prefix.pch";
+				INFOPLIST_FILE = HoneAppBeacon/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		39AE82791B0ED7DE00FE176E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HoneAppBeaconTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HoneAppBeacon.app/HoneAppBeacon";
+			};
+			name = Debug;
+		};
+		39AE827A1B0ED7DE00FE176E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HoneAppBeaconTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HoneAppBeacon.app/HoneAppBeacon";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		39AE824D1B0ED7DE00FE176E /* Build configuration list for PBXProject "HoneAppBeacon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39AE82731B0ED7DE00FE176E /* Debug */,
+				39AE82741B0ED7DE00FE176E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39AE82751B0ED7DE00FE176E /* Build configuration list for PBXNativeTarget "HoneAppBeacon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39AE82761B0ED7DE00FE176E /* Debug */,
+				39AE82771B0ED7DE00FE176E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39AE82781B0ED7DE00FE176E /* Build configuration list for PBXNativeTarget "HoneAppBeaconTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39AE82791B0ED7DE00FE176E /* Debug */,
+				39AE827A1B0ED7DE00FE176E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 39AE824A1B0ED7DE00FE176E /* Project object */;
+}

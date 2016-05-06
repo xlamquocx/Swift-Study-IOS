@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="oTk-qc-ZAK">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+    </dependencies>
+    <scenes>
+        <!--TransmitterVC-->
+        <scene sceneID="Sx2-mM-fhe">
+            <objects>
+                <viewController id="oTk-qc-ZAK" customClass="TransmitterVC" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Th3-kE-Nbf"/>
+                        <viewControllerLayoutGuide type="bottom" id="Wqv-eF-3m6"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Eti-Fy-Asz">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="ibeacon.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="aNm-fv-H6G">
+                                <rect key="frame" x="48" y="39" width="225" height="225"/>
+                            </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="beacon_teal.png" translatesAutoresizingMaskIntoConstraints="NO" id="UBs-at-zbX">
+                                <rect key="frame" x="55" y="124" width="200" height="280"/>
+                            </imageView>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6jP-qA-QB1">
+                                <rect key="frame" x="136" y="427" width="51" height="31"/>
+                                <connections>
+                                    <action selector="ibaSwitch:" destination="oTk-qc-ZAK" eventType="valueChanged" id="AUb-5D-Ma3"/>
+                                </connections>
+                            </switch>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="ibEstimote" destination="aNm-fv-H6G" id="1UV-ae-Mwq"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ioB-ZT-TyB" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="337" y="390"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="beacon_teal.png" width="200" height="280"/>
+        <image name="ibeacon.jpg" width="225" height="225"/>
+    </resources>
+</document>

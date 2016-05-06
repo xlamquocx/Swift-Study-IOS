@@ -1,0 +1,475 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1343\cocoasubrtf140
+{\fonttbl\f0\froman\fcharset0 Times-Roman;\f1\fnil\fcharset0 HelveticaNeue;\f2\fswiss\fcharset0 ArialMT;
+\f3\fnil\fcharset0 HelveticaNeue-Medium;}
+{\colortbl;\red255\green255\blue255;\red121\green121\blue121;\red172\green67\blue70;\red53\green118\blue190;
+\red38\green38\blue38;\red39\green92\blue124;\red209\green233\blue245;\red236\green236\blue236;\red119\green90\blue45;
+\red251\green247\blue220;}
+{\*\listtable{\list\listtemplateid1\listhybrid{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{decimal\}}{\leveltext\leveltemplateid1\'01\'00;}{\levelnumbers\'01;}\fi-360\li720\lin720 }{\listname ;}\listid1}
+{\list\listtemplateid2\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid101\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid2}
+{\list\listtemplateid3\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid201\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid3}
+{\list\listtemplateid4\listhybrid{\listlevel\levelnfc0\levelnfcn0\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{decimal\}}{\leveltext\leveltemplateid301\'01\'00;}{\levelnumbers\'01;}\fi-360\li720\lin720 }{\listname ;}\listid4}
+{\list\listtemplateid5\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid401\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid5}
+{\list\listtemplateid6\listhybrid{\listlevel\levelnfc23\levelnfcn23\leveljc0\leveljcn0\levelfollow0\levelstartat1\levelspace360\levelindent0{\*\levelmarker \{disc\}}{\leveltext\leveltemplateid501\'01\uc0\u8226 ;}{\levelnumbers;}\fi-360\li720\lin720 }{\listname ;}\listid6}}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}{\listoverride\listid2\listoverridecount0\ls2}{\listoverride\listid3\listoverridecount0\ls3}{\listoverride\listid4\listoverridecount0\ls4}{\listoverride\listid5\listoverridecount0\ls5}{\listoverride\listid6\listoverridecount0\ls6}}
+\paperw11900\paperh16840\margl1440\margr1440\vieww25400\viewh13220\viewkind0
+\deftab720
+\pard\pardeftab720
+
+\f0\fs40 \cf2 \expnd0\expndtw0\kerning0
+Compatibility: iPhone 5 iOS7, iPhone 6 iOS8, iPad 4.\
+Fail: iPad mini can\'92t receive.\
+
+\f1\b\fs100 \cf3 \expnd0\expndtw0\kerning0
+\
+\pard\pardeftab720\qc
+\cf3 What is an iBeacon?\
+\pard\pardeftab720\qc
+
+\f0\b0\fs40 \cf2 \expnd0\expndtw0\kerning0
+Put simply, an iBeacon is a low cost, low-energy device which emits a bluetooth signal broadcasting a unique ID. You use an app which is programmed to keep an eye out for this unique ID and then triggers some action when your mobile devices comes into range of a beacon. It works slightly different to NFC in that NFC is designed to read unpowered RFID tags which seemed to be the big thing in 2011 as it was widely adopted in Google's Android 4.0 Ice Cream Sandwich operating system but poor adoption and the fact that NFC range is 20cm vs iBeacon's 50m range means that it's limited to interactions relying on almost contact level proximity such as 'contactless' payment or Android's Beam which allows ad-hoc file sharing by holding two Android devices together.\
+{{\NeXTGraphic applications1.jpg \width9576 \height7056 \noorient
+}¬}\
+An iBeacon transmitter is a powered device implementing BLE in Bluetooth 4.0 which was first introduced to the iPhone 4S and iPad 3 and every iOS and OSX device since mid-2012. {\field{\*\fldinst{HYPERLINK "http://estimote.com/"}}{\fldrslt \cf4 \expnd0\expndtw0\kerning0
+Estimote Beacons}}\'a0contain a lithium battery that should allow the beacon to\'a0{\field{\*\fldinst{HYPERLINK "http://estimote.com/#faq"}}{\fldrslt \cf4 \expnd0\expndtw0\kerning0
+broadcast a signal up to 70m for 2 years}}.\
+All iOS apps run in the background instead of terminating by default. When the vendor app is first started the app starts monitoring for beacons with a specific unique ID and then when the app is entered into the background or terminated due to memory pressure the operating system steps in and starts monitoring for the beacons on the apps behalf and notifies the app when a beacon enters your proximity.\
+Put simply, your app starts monitoring for beacons the first time it's started and then can perform an action every time one comes into proximity.\
+\pard\pardeftab720\qc
+
+\f1\b\fs100 \cf3 \expnd0\expndtw0\kerning0
+Applications of iBeacon\
+\pard\pardeftab720\qc
+
+\f0\b0\fs40 \cf2 \expnd0\expndtw0\kerning0
+The applications for iBeacon technology are endless. Retail, home automation and museum exhibitions are hot on the hit list of potential applications. {\field{\*\fldinst{HYPERLINK "http://appleinsider.com/articles/13/11/20/macys-begins-pilot-test-of-apples-ibeacon-in-flagship-new-york-san-francisco-stores"}}{\fldrslt \cf4 \expnd0\expndtw0\kerning0
+Macy's have recently began a pilot test in their flagship New York & San Francisco stores}} which shows the technologies marketing and retail potential.\
+We've come up with our own list of implementations that we'd love to get involved with...\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\qc
+\ls1\ilvl0
+\fs28 \cf5 \kerning1\expnd0\expndtw0 {\listtext	1	}\expnd0\expndtw0\kerning0
+Proximity marketing - this is an obvious choice for iBeacon implementation and one we're already considering for\'a0{\field{\*\fldinst{HYPERLINK "http://createdineden.com/work/auntie-annes-complete-digital-strategy/"}}{\fldrslt \cf4 \expnd0\expndtw0\kerning0
+Auntie Anne's loyalty app}}\'a0which will go live later this year. Proximity and personalised marketing is the stuff of movies (like Minority Report).\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\qc
+\ls1\ilvl0\cf5 \kerning1\expnd0\expndtw0 {\listtext	2	}\expnd0\expndtw0\kerning0
+Home automation - imagine pulling up to your drive and your porch lights coming on. That's not groundbreaking really, we've had movement sensors for years but imagine that, as well as the lights coming, on your bath started running, the lights dimmed and relaxing music started playing.\
+\ls1\ilvl0\kerning1\expnd0\expndtw0 {\listtext	3	}\expnd0\expndtw0\kerning0
+Museums and exhibits - as well as a personalised audio tour on your phone as your browse between exhibits and gallaries without a predetermined direction the museum curator can be building heatmaps of their most popular exhibits and reorganising galleries based on visitor behaviour.\
+\ls1\ilvl0\kerning1\expnd0\expndtw0 {\listtext	4	}\expnd0\expndtw0\kerning0
+Venue navigation - freshers week at university would be made a whole lot easier by helping new and terrified students around campus with geofenced navigation.\
+\ls1\ilvl0\kerning1\expnd0\expndtw0 {\listtext	5	}\expnd0\expndtw0\kerning0
+Conference venues - last year we built the {\field{\*\fldinst{HYPERLINK "http://createdineden.com/work/buy-yorkshire-conference-app/"}}{\fldrslt \cf4 \expnd0\expndtw0\kerning0
+Buy Yorkshire Conference app}} which featured keynote, exhibitor and map information. Using iBeacon we could implement location aware information such as interactive content with the current speakers talk but only available to those people who are sat in the theatre, not to those walking around the exhibitors outside the theatre. Better still the conference venue could provide their own implementation to all conferences.\
+\ls1\ilvl0\kerning1\expnd0\expndtw0 {\listtext	6	}\expnd0\expndtw0\kerning0
+Car rental - just before you get on a flight you could order and pay for your car rental then when you arrive at the airport, your car could automatically unlock when you get near to it. This would require a little more computation and extra hardware within the car but the essence is made possible by iBeacon.\
+\ls1\ilvl0\kerning1\expnd0\expndtw0 {\listtext	7	}\expnd0\expndtw0\kerning0
+Taxi Alert - order a cab through your phone and receive a push notification when they're outside waiting for you.\
+\pard\pardeftab720\qc
+
+\f1\b\fs200 \cf3 \expnd0\expndtw0\kerning0
+Tutorial - An iBeacon Treasure Hunt\
+\pard\pardeftab720\qc
+{\field{\*\fldinst{HYPERLINK "http://createdineden.com/media/1199/treasure-hunt.zip"}}{\fldrslt 
+\f0\b0\fs28 \cf1 \cb4 \expnd0\expndtw0\kerning0
+Download the source code}}
+\f0\b0\fs40 \cf2 \expnd0\expndtw0\kerning0
+\
+Because I couldn't wait to start messing around with iBeacons before our {\field{\*\fldinst{HYPERLINK "http://estimote.com/"}}{\fldrslt \cf4 \expnd0\expndtw0\kerning0
+Estimote Beacons}}\'a0arrive, I decided that I'd use an iPad as an iBeacon transmitter and an iPhone as a receiver. The simplest example I could think of late last night was a treasure hunt where the iPad acts as the treasure and the iPhone acts as the hunter which tells you when you're getting warmer. If you want to following along with this tutorial the source code is available here to {\field{\*\fldinst{HYPERLINK "http://createdineden.com/media/1199/treasure-hunt.zip"}}{\fldrslt \cf4 \expnd0\expndtw0\kerning0
+download here}}.\
+\pard\pardeftab720\qc
+
+\f1\b\fs100 \cf3 \expnd0\expndtw0\kerning0
+Creating the project\
+\pard\pardeftab720\qc
+
+\f0\b0\fs40 \cf2 \expnd0\expndtw0\kerning0
+We're going to use a single code base for both the treasure (transmitter) and the hunter (receiver). The code will determine whether it's running on an iPhone or iPad and configure itself accordingly. With that in mind, fire up XCode and create a universal single view application.\
+\pard\pardeftab720\qc
+\cf2 \expnd0\expndtw0\kerning0
+{{\NeXTGraphic screen-shot-2014-02-20-at-204926.png \width30280 \height19760 \noorient
+}¬}\pard\pardeftab720\qc
+\cf2 \expnd0\expndtw0\kerning0
+\'a0\expnd0\expndtw0\kerning0
+{{\NeXTGraphic screen-shot-2014-02-20-at-205038.png \width30280 \height19760 \noorient
+}¬}\expnd0\expndtw0\kerning0
+\
+\pard\pardeftab720\qc
+
+\f1\b\fs100 \cf3 \expnd0\expndtw0\kerning0
+Add required frameworks\
+\pard\pardeftab720\qc
+
+\f0\b0\fs40 \cf2 \expnd0\expndtw0\kerning0
+Our hunter app is going to speak to us like a salty pirate (kind of), for this we need AVFoundation. For iBeacon we need CoreBluetooth and CoreLocation so go ahead and add all three. The image below shows all the linked frameworks in my project.\
+\pard\pardeftab720\qc
+\cf2 \expnd0\expndtw0\kerning0
+{{\NeXTGraphic screen-shot-2014-02-21-at-141351.png \width17780 \height3600 \noorient
+}¬}\pard\pardeftab720\qc
+\cf2 \expnd0\expndtw0\kerning0
+\
+\pard\pardeftab720\qc
+
+\f1\b\fs100 \cf3 \expnd0\expndtw0\kerning0
+Adding Permissions\
+\pard\pardeftab720\qc
+
+\f0\b0\fs28 \cf6 \cb7 \expnd0\expndtw0\kerning0
+Heads up, this is required in iOS8 but not in iOS7 to give the user a helpful message as to why you need their permission\
+\pard\pardeftab720\qc
+
+\fs40 \cf2 \cb1 \expnd0\expndtw0\kerning0
+Open your project settings by clicking on the project in the left hand window and ensuring that you have selected the target and not the project. Open the info tab and add a new key to the Custom iOS Target Properties with the following values:\
+\pard\tx220\tx720\pardeftab720\li720\fi-720
+\ls2\ilvl0
+\fs28 \cf5 \kerning1\expnd0\expndtw0 {\listtext	\'95	}\expnd0\expndtw0\kerning0
+Key:\'a0NSLocationAlwaysUsageDescription\
+\pard\tx220\tx720\pardeftab720\li720\fi-720
+\ls2\ilvl0\cf5 \kerning1\expnd0\expndtw0 {\listtext	\'95	}\expnd0\expndtw0\kerning0
+Value: This app needs your location to hunt some treasure.\
+\pard\pardeftab720\qc
+
+\f1\b\fs100 \cf3 \expnd0\expndtw0\kerning0
+Prepare your views\
+\pard\pardeftab720\qc
+
+\f0\b0\fs40 \cf2 \expnd0\expndtw0\kerning0
+For our treasure app (the iPad version) we just need a big image of treasure so I won't go into detail about adding this, this iPad view doesn't have any interactive content so manipulate the Main_iPad.storyboard so that your view will look like this:\
+\pard\pardeftab720\qc
+\cf2 \expnd0\expndtw0\kerning0
+{{\NeXTGraphic treasure.jpg \width16000 \height12360 \noorient
+}¬}\pard\pardeftab720\qc
+\cf2 \expnd0\expndtw0\kerning0
+\
+The iPhone app (the hunter) needs to be a little more interactive. As you get closer to the treasure the background colour and a label will change to look like this:\
+\pard\pardeftab720\qc
+\cf2 \expnd0\expndtw0\kerning0
+{{\NeXTGraphic hunter-screens.gif \width15400 \height32440 \noorient
+}¬}\pard\pardeftab720\qc
+\cf2 \expnd0\expndtw0\kerning0
+\
+Again, I'll let you manipulate the view storyboard but essentially we need a single UILabel that's attached to an IBOutlet on the main view controller. Go ahead and add a UILabel to the Main_iPhone.storyboard file and bind it to the only view controller in the project. I've named my label 
+\i \expnd0\expndtw0\kerning0
+statusLabel 
+\i0 \expnd0\expndtw0\kerning0
+as you can see below:\
+\pard\pardeftab720\qc
+\cf2 \expnd0\expndtw0\kerning0
+{{\NeXTGraphic screen-shot-2014-02-21-at-144703.png \width23280 \height16020 \noorient
+}¬}\pard\pardeftab720\qc
+\cf2 \expnd0\expndtw0\kerning0
+\
+\pard\pardeftab720\qc
+
+\f1\b\fs100 \cf3 \expnd0\expndtw0\kerning0
+Configure your view controller header\
+\pard\pardeftab720\qc
+
+\f0\b0\fs40 \cf2 \expnd0\expndtw0\kerning0
+Jump over to your viewcontroller header file and import AVFoundation, CoreBluetooth and CoreLocation:\
+\pard\pardeftab720\qc
+
+\f2\fs24 \cf5 \cb8 \expnd0\expndtw0\kerning0
+ #import <AVFoundation/AVFoundation.h> \'a0\
+\'a0#import <CoreBluetooth/CoreBluetooth.h> \'a0\
+\'a0#import <CoreLocation/CoreLocation.h> \'a0\
+\pard\pardeftab720\qc
+
+\f0\fs40 \cf2 \cb1 \expnd0\expndtw0\kerning0
+Because the iPad (the treasure) needs to know when the bluetooth peripheral is ready before it starts advertising itself as a beacon; our viewcontroller needs to implement the CBPeripheralManagerDelegate, also since our iPhone (the hunter) needs to know when a beacon is near it needs to implement CLLocationManagerDelegate. Go ahead and decorate your controller with these now...\
+\pard\pardeftab720\qc
+
+\f2\fs24 \cf5 \cb8 \expnd0\expndtw0\kerning0
+ @interface THViewController : UIViewController<CBPeripheralManagerDelegate, CLLocationManagerDelegate> \'a0\
+\pard\pardeftab720\qc
+
+\f1\b\fs100 \cf3 \cb1 \expnd0\expndtw0\kerning0
+Configuring the transmitter\
+\pard\pardeftab720\qc
+
+\f0\b0\fs40 \cf2 \expnd0\expndtw0\kerning0
+iBeacons transmit three values:\
+\pard\tx220\tx720\pardeftab720\li720\fi-720
+\ls3\ilvl0
+\fs28 \cf5 \kerning1\expnd0\expndtw0 {\listtext	\'95	}\expnd0\expndtw0\kerning0
+proximityUUID - a property which identifies the vendor. All beacons by a vendor should use the same ID and realistically the app should only be looking out for one vendor code.\
+\pard\tx220\tx720\pardeftab720\li720\fi-720
+\ls3\ilvl0\cf5 \kerning1\expnd0\expndtw0 {\listtext	\'95	}\expnd0\expndtw0\kerning0
+major - a numeric property to specify a set of related beacons. This can be used to break down a region or to group beacons\
+\ls3\ilvl0\kerning1\expnd0\expndtw0 {\listtext	\'95	}\expnd0\expndtw0\kerning0
+minor - the minor number ultimately identifies the actual beacon. For example if you use the major value to identify a city or a particular store in a chain of stores then the minor number would identify the beacon in that store.\
+\pard\pardeftab720\qc
+
+\fs40 \cf2 \expnd0\expndtw0\kerning0
+Since we've only got one beacon all we really need to care about is the UUID. To generate a UUID I used the uuidgen command line tool in terminal:\
+\pard\pardeftab720\qc
+\cf2 \expnd0\expndtw0\kerning0
+{{\NeXTGraphic screen-shot-2014-02-20-at-210934.png \width13680 \height9600 \noorient
+}¬}\pard\pardeftab720\qc
+\cf2 \expnd0\expndtw0\kerning0
+\
+Go ahead and do the same and then add two constants to your viewcontroller implementation...\
+\pard\pardeftab720\qc
+
+\f2\fs24 \cf5 \cb8 \expnd0\expndtw0\kerning0
+ static NSString * uuid = @"4234EE23-34A0-4BF7-993A-FE5574A70762"; \'a0\
+\'a0static NSString * treasureId = @"com.eden.treasure"; \'a0\
+\pard\pardeftab720\qc
+
+\f0\fs40 \cf2 \cb1 \expnd0\expndtw0\kerning0
+Now in order to transmit we're going to need three things:\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\qc
+\ls4\ilvl0
+\fs28 \cf5 \kerning1\expnd0\expndtw0 {\listtext	1	}\expnd0\expndtw0\kerning0
+A CLBeaconRegion for advertising ourselves\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\qc
+\ls4\ilvl0\cf5 \kerning1\expnd0\expndtw0 {\listtext	2	}\expnd0\expndtw0\kerning0
+A CBPeripheralManager to tell us when the bluetooth device on our iPad is ready to use and\
+\ls4\ilvl0\kerning1\expnd0\expndtw0 {\listtext	3	}\expnd0\expndtw0\kerning0
+An NSDictionary containing our preferences for broadcasting\
+\pard\pardeftab720\qc
+
+\fs40 \cf2 \expnd0\expndtw0\kerning0
+Add these as properties to the interface in the .m file:\
+\pard\pardeftab720\qc
+
+\f2\fs24 \cf5 \cb8 \expnd0\expndtw0\kerning0
+ @property CLBeaconRegion * beaconRegion; \'a0\
+\'a0@property CBPeripheralManager * peripheralManager; \'a0\
+\'a0@property NSMutableDictionary * peripheralData; \'a0\
+\pard\pardeftab720\qc
+
+\f0\fs40 \cf2 \cb1 \expnd0\expndtw0\kerning0
+We're going to branch our logic in the viewDidLoad method of the controller to switch functionality based on whether or not the device is an iPad (treasure) or an iPhone (the hunter). Copy the following viewDidLoad method:\
+\pard\pardeftab720\qc
+
+\f2\fs24 \cf5 \cb8 \expnd0\expndtw0\kerning0
+ - (void)viewDidLoad \'a0\
+\'a0\{ \'a0\
+\'a0 \'a0[super viewDidLoad]; \'a0\
+\'a0 \'a0// Regardless of whether the device is a transmitter or receiver, we need a beacon region. \'a0\
+\'a0 \'a0NSUUID * uid = [[NSUUID alloc] initWithUUIDString:uuid]; \'a0\
+\'a0 \'a0self.beaconRegion = [[CLBeaconRegion alloc] initWithProximityUUID:uid identifier:treasureId]; \'a0\
+\'a0 \'a0// When set to YES, the location manager sends beacon notifications when the user turns on the display and the device is already inside the region. \'a0\
+\'a0 \'a0[self.beaconRegion setNotifyEntryStateOnDisplay:YES]; \'a0\
+\'a0 \'a0[self.beaconRegion setNotifyOnEntry:YES]; \'a0\
+\'a0 \'a0[self.beaconRegion setNotifyOnExit:YES]; \'a0\
+\'a0 \'a0if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad) \{ \'a0\
+\'a0 \'a0 \'a0[self configureTransmitter]; \'a0\
+\'a0 \'a0\} \'a0\
+\'a0 \'a0else \{ \'a0\
+\'a0 \'a0 \'a0[self configureReceiver]; \'a0\
+\'a0 \'a0\} \'a0\
+\'a0\} \'a0\
+\pard\pardeftab720\qc
+
+\f0\fs40 \cf2 \cb1 \expnd0\expndtw0\kerning0
+What we're doing here is setting up a region regardless of whether or not we're on iPhone or iPad since we'll use the same region in both and then we're configuring the region before branching our configuration code based what's reported by the user interface idiom.\
+The configureTransmitter code is relatively straightforward:\
+\pard\pardeftab720\qc
+
+\f2\fs24 \cf5 \cb8 \expnd0\expndtw0\kerning0
+ -(void)configureTransmitter \{ \'a0\
+\'a0 \'a0// The received signal strength indicator (RSSI) value (measured in decibels) for the device. This value represents the measured strength of the beacon from one meter away and is used during ranging. Specify nil to use the default value for the device. \'a0\
+\'a0 \'a0NSNumber * power = [NSNumber numberWithInt:-63]; \'a0\
+\'a0 \'a0self.peripheralData = [self.beaconRegion peripheralDataWithMeasuredPower:power]; \'a0\
+\'a0 \'a0// Get the global dispatch queue. \'a0\
+\'a0 \'a0dispatch_queue_t queue = dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0); \'a0\
+\'a0 \'a0// Create a peripheral manager. \'a0\
+\'a0 \'a0self.peripheralManager = [[CBPeripheralManager alloc] initWithDelegate:self queue:queue]; \'a0\
+\'a0\} \'a0\
+\pard\pardeftab720\qc
+
+\f0\fs40 \cf2 \cb1 \expnd0\expndtw0\kerning0
+Here we set a power adjustment before getting the peripheral data from the beacon before setting ourselves as a delegate and then intialising the peripheral manager. We can't start broadcasting ourselves as a beacon until the bluetooth adapter on the iPad is turned on and ready and so we do this in the\'a0CBPeripheralManagerDelegate.\
+Go ahead and implement the only method we need from the CBPeripheralManagerDelegate\'a0now:\
+\pard\pardeftab720\qc
+
+\f2\fs24 \cf5 \cb8 \expnd0\expndtw0\kerning0
+ -(void)peripheralManagerDidUpdateState:(CBPeripheralManager *)peripheral \{ \'a0\
+\'a0 \'a0// The peripheral is now active, this means the bluetooth adapter is all good so we can start advertising. \'a0\
+\'a0 \'a0if (peripheral.state == CBPeripheralManagerStatePoweredOn) \{ \'a0\
+\'a0 \'a0 \'a0[self.peripheralManager startAdvertising:self.peripheralData]; \'a0\
+\'a0 \'a0\} \'a0\
+\'a0 \'a0else if (peripheral.state == CBPeripheralManagerStatePoweredOff) \{ \'a0\
+\'a0 \'a0 \'a0NSLog(@"Powered Off"); \'a0\
+\'a0 \'a0 \'a0[self.peripheralManager stopAdvertising]; \'a0\
+\'a0 \'a0\} \'a0\
+\'a0\} \'a0\
+\pard\pardeftab720\qc
+
+\f0\fs40 \cf2 \cb1 \expnd0\expndtw0\kerning0
+All we're doing is waiting for the bluetooth device to be powered on before we start transmitting (or advertising) our region and that's all we need to do.\
+\pard\pardeftab720\qc
+
+\f1\b\fs100 \cf3 \expnd0\expndtw0\kerning0
+Configure the receiver\
+\pard\pardeftab720\qc
+
+\f0\b0\fs40 \cf2 \expnd0\expndtw0\kerning0
+Now we need to configure the receiver but before we do we need a couple more properties. Add the following properties to the interface within the .m file:\
+\pard\pardeftab720\qc
+
+\f2\fs24 \cf5 \cb8 \expnd0\expndtw0\kerning0
+ @property CLLocationManager * locationManager; \'a0\
+\'a0@property CLProximity previousProximity; \'a0\
+\pard\pardeftab720\qc
+
+\f0\fs40 \cf2 \cb1 \expnd0\expndtw0\kerning0
+Now add the configure receiver code:\
+\pard\pardeftab720\qc
+
+\f2\fs24 \cf5 \cb8 \expnd0\expndtw0\kerning0
+ -(void)configureReceiver \{ \'a0\
+\'a0 \'a0// Location manager. \'a0\
+\'a0 \'a0self.locationManager = [[CLLocationManager alloc] init]; \'a0\
+\'a0 \'a0self.locationManager.delegate = self; \'a0\cf0 \cb1 \expnd0\expndtw0\kerning0
+\
+\cf5 \cb8 \expnd0\expndtw0\kerning0
+   [self.locationManager requestAlwaysAuthorization];\
+\'a0 \'a0[self.locationManager startMonitoringForRegion:self.beaconRegion]; \'a0\
+\'a0 \'a0[self.locationManager startRangingBeaconsInRegion:self.beaconRegion]; \'a0\
+\'a0\} \'a0\
+\pard\pardeftab720\qc
+
+\f0\fs28 \cf9 \cb10 \expnd0\expndtw0\kerning0
+Note that the call to requestAlwaysAuthorization is required since iOS 8\
+\pard\pardeftab720\qc
+
+\fs40 \cf2 \cb1 \expnd0\expndtw0\kerning0
+All we're doing here is setting up a location manager and monitoring for the region we configured earlier. Now we need to configure what happens when we enter the region, exit a region or when we 'range beacons' which is the event which occurs when we get closer or further away from a beacon. Let's start with entering and exiting a region:\
+\pard\pardeftab720\qc
+
+\f2\fs24 \cf5 \cb8 \expnd0\expndtw0\kerning0
+ -(void)locationManager:(CLLocationManager *)manager didEnterRegion:(CLRegion *)region \{ \'a0\
+\'a0 \'a0// See if we've entered the region. \'a0\
+\'a0 \'a0if ([region.identifier isEqualToString:treasureId]) \{ \'a0\
+\'a0 \'a0 \'a0UILocalNotification * notification = [[UILocalNotification alloc] init]; \'a0\
+\'a0 \'a0 \'a0notification.alertBody = @"There be a treasure hiding nearby. Find it me hearties."; \'a0\
+\'a0 \'a0 \'a0notification.soundName = @"arrr.caf"; \'a0\
+\'a0 \'a0 \'a0[[UIApplication sharedApplication] presentLocalNotificationNow:notification]; \'a0\
+\'a0 \'a0\} \'a0\
+\'a0\} \'a0\
+\'a0-(void)locationManager:(CLLocationManager *)manager didExitRegion:(CLRegion *)region \{ \'a0\
+\'a0 \'a0// See if we've exited a treasure region. \'a0\
+\'a0 \'a0if ([region.identifier isEqualToString:treasureId]) \{ \'a0\
+\'a0 \'a0 \'a0UILocalNotification * notification = [[UILocalNotification alloc] init]; \'a0\
+\'a0 \'a0 \'a0notification.alertBody = @"Avast ye bilge rat. We be losing sight of the treasure."; \'a0\
+\'a0 \'a0 \'a0notification.soundName = @"arrr.caf"; \'a0\
+\'a0 \'a0 \'a0[[UIApplication sharedApplication] presentLocalNotificationNow:notification]; \'a0\
+\'a0 \'a0\} \'a0\
+\'a0\} \'a0\
+\pard\pardeftab720\qc
+
+\f0\fs40 \cf2 \cb1 \expnd0\expndtw0\kerning0
+Here we are presenting a local notification whenever we're entering or exiting a region with a salty pirate message. The clever stuff happens in the locationManager:didRangeBeacons:inRegion method of\'a0CLLocationManagerDelegate:\
+\pard\pardeftab720\qc
+
+\f2\fs24 \cf5 \cb8 \expnd0\expndtw0\kerning0
+ -(void)locationManager:(CLLocationManager *)manager didRangeBeacons:(NSArray *)beacons inRegion:(CLBeaconRegion *)region \'a0\
+\'a0\{ \'a0\
+\'a0 \'a0if ([beacons count] == 0) \'a0\
+\'a0 \'a0 \'a0return; \'a0\
+\'a0 \'a0NSString * message; \'a0\
+\'a0 \'a0UIColor * bgColor; \'a0\
+\'a0 \'a0CLBeacon * beacon = [beacons firstObject]; \'a0\
+\'a0 \'a0switch (beacon.proximity) \{ \'a0\
+\'a0 \'a0 \'a0case CLProximityUnknown: \'a0\
+\'a0 \'a0 \'a0 \'a0message = @"Come 'ere me buxom beauty. There be no treasure in me vicinity"; \'a0\
+\'a0 \'a0 \'a0 \'a0bgColor = [UIColor blueColor]; \'a0\
+\'a0 \'a0 \'a0 \'a0break; \'a0\
+\'a0 \'a0 \'a0case CLProximityFar: \'a0\
+\'a0 \'a0 \'a0 \'a0message = @"Shiver me timbers. I be more than a long John away"; \'a0\
+\'a0 \'a0 \'a0 \'a0bgColor = [UIColor colorWithRed:.0f green:.0f blue:230.0f alpha:1.0f]; \'a0\
+\'a0 \'a0 \'a0 \'a0break; \'a0\
+\'a0 \'a0 \'a0case CLProximityNear: \'a0\
+\'a0 \'a0 \'a0 \'a0message = @"Argh. I be no further than a hornpipe away"; \'a0\
+\'a0 \'a0 \'a0 \'a0bgColor = [UIColor orangeColor]; \'a0\
+\'a0 \'a0 \'a0 \'a0break; \'a0\
+\'a0 \'a0 \'a0case CLProximityImmediate: \'a0\
+\'a0 \'a0 \'a0default: \'a0\
+\'a0 \'a0 \'a0 \'a0message = @"Smartly does it lass. I be richer than a pig in grog"; \'a0\
+\'a0 \'a0 \'a0 \'a0bgColor = [UIColor redColor]; \'a0\
+\'a0 \'a0 \'a0 \'a0break; \'a0\
+\'a0 \'a0\} \'a0\
+\'a0 \'a0if (beacon.proximity != self.previousProximity) \{ \'a0\
+\'a0 \'a0 \'a0[self speak:message]; \'a0\
+\'a0 \'a0 \'a0[self.statusLabel setText:message]; \'a0\
+\'a0 \'a0 \'a0[self.view setBackgroundColor:bgColor]; \'a0\
+\'a0 \'a0 \'a0self.previousProximity = beacon.proximity; \'a0\
+\'a0 \'a0\} \'a0\
+\'a0\} \'a0\
+\pard\pardeftab720\qc
+
+\f0\fs40 \cf2 \cb1 \expnd0\expndtw0\kerning0
+What we do here is switch on the beacon proximity and prepare a background colour and message based on how close the beacon is. If the proximity has changed since last time then we set the view's background colour, the label text and then we speak the message using an AVSpeechSynthesizer. To do this however we need the speak method.\
+\pard\pardeftab720\qc
+
+\f2\fs24 \cf5 \cb8 \expnd0\expndtw0\kerning0
+ -(void)speak:(NSString*)message \{ \'a0\
+\'a0 \'a0AVSpeechSynthesizer * synth = [[AVSpeechSynthesizer alloc] init]; \'a0\
+\'a0 \'a0AVSpeechUtterance * utterance = [[AVSpeechUtterance alloc] initWithString:message]; \'a0\
+\'a0 \'a0[utterance setRate:AVSpeechUtteranceMaximumSpeechRate *.3f]; \'a0\
+\'a0 \'a0[utterance setVolume:1.0f]; \'a0\
+\'a0 \'a0[utterance setPitchMultiplier:0.7f]; \'a0\
+\'a0 \'a0[utterance setVoice:[AVSpeechSynthesisVoice voiceWithLanguage:@"en-IE"]]; \'a0\
+\'a0 \'a0[synth speakUtterance:utterance]; \'a0\
+\'a0\} \'a0\
+\pard\pardeftab720\qc
+
+\f0\fs40 \cf2 \cb1 \expnd0\expndtw0\kerning0
+I decided that the en-GB implementation of the AVSpeechSynthesizer could never sound remotely pirate-like. He was far too posh and so I took the Irish voice, lowered the pitch and speed and probably got the closest I could to a pirate using the english speaking voices on the iPhone.\
+We're almost done. The only thing we've overlooked is the fact that we're not doing anything with the local notifications which get raised when the hunter enters a new beacon region. Head on over to the app delegate and add the following code:\
+\pard\pardeftab720\qc
+
+\f2\fs24 \cf5 \cb8 \expnd0\expndtw0\kerning0
+ -(void)application:(UIApplication *)application didReceiveLocalNotification:(UILocalNotification *)notification \{ \'a0\
+\'a0 \'a0UIAlertView * av = [[UIAlertView alloc] initWithTitle:@"Find the treasure" \'a0\
+\'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 message:notification.alertBody \'a0\
+\'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 delegate:NULL \'a0\
+\'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0cancelButtonTitle:@"OK" \'a0\
+\'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0 \'a0otherButtonTitles:nil, nil]; \'a0\
+\'a0 \'a0[av show]; \'a0\
+\'a0\} \'a0\
+\pard\pardeftab720\qc
+
+\f0\fs40 \cf2 \cb1 \expnd0\expndtw0\kerning0
+Now we're presenting a UIAlertView when the app is running and the user enters a new region.\
+\pard\pardeftab720\qc
+
+\f1\b\fs100 \cf3 \expnd0\expndtw0\kerning0
+Now we're done\
+\pard\pardeftab720\qc
+
+\f0\b0\fs40 \cf2 \expnd0\expndtw0\kerning0
+I hope you've had fun playing with iBeacons. The technology has the potential to revolutionise the way we shop, interact and behave in different geolocation settings and here at Eden we're geared up and ready to start building the most amazing geo-ringfenced solutions for you. If you'd like to talk to us about iBeacon solutions then please {\field{\*\fldinst{HYPERLINK "http://createdineden.com/contact/"}}{\fldrslt \cf4 \expnd0\expndtw0\kerning0
+get in touch}}.\
+\pard\pardeftab720\qc
+
+\f3\fs36 \cf3 \expnd0\expndtw0\kerning0
+Or follow us on Twitter {\field{\*\fldinst{HYPERLINK "https://twitter.com/CreatedInEden"}}{\fldrslt \cf4 \expnd0\expndtw0\kerning0
+here}}.\'a0\
+\pard\tx220\tx720\pardeftab720\li720\fi-720\qc
+\ls5\ilvl0
+\f0\fs28 \cf5 \kerning1\expnd0\expndtw0 {\listtext	\'95	}\expnd0\expndtw0\kerning0
+\
+\pard\pardeftab720\qc
+
+\f3\fs40 \cf3 \expnd0\expndtw0\kerning0
+Categories\
+\pard\tx220\tx720\pardeftab720\li720\fi-720
+\ls6\ilvl0
+\f0\fs28 \cf4 \kerning1\expnd0\expndtw0 {\listtext	\'95	}{\field{\*\fldinst{HYPERLINK "http://createdineden.com/blog/?label=Developer+Focus"}}{\fldrslt \expnd0\expndtw0\kerning0
+Developer Focus}}\cf5 \expnd0\expndtw0\kerning0
+\
+\pard\pardeftab720\qc
+{\field{\*\fldinst{HYPERLINK "http://createdineden.com/blog/?author=Craig+Gilchrist"}}{\fldrslt \cf4 \expnd0\expndtw0\kerning0
+{{\NeXTGraphic craig.jpg \width6720 \height6720 \noorient
+}¬}\pard\pardeftab720\qc
+\cf4 \expnd0\expndtw0\kerning0
+\
+}}\pard\pardeftab720\qc
+\cf5 \expnd0\expndtw0\kerning0
+By Craig Gilchrist {\field{\*\fldinst{HYPERLINK "https://plus.google.com/104901098043490469721?rel=author"}}{\fldrslt \cf4 \expnd0\expndtw0\kerning0
+Google+}}\
+More posts by {\field{\*\fldinst{HYPERLINK "http://createdineden.com/blog/?author=Craig+Gilchrist"}}{\fldrslt \cf4 \expnd0\expndtw0\kerning0
+Craig Gilchrist}}, article written at 11:49}
